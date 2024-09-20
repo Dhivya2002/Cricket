@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Legends Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cricket Legends Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#players">Players</a></li>
+                <li><a href="#map">Map</a></li>
+                <li><a href="#matches">Top Matches</a></li>
+                <li><a href="#fanzone">Fan Zone</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Cricket Legends Hub</h2>
+        <p>Explore the profiles and achievements of cricket's greatest players from around the world.</p>
+        <div class="featured-players">
+            <div class="player-card">
+                <img src="C:\Users\HP\Downloads\Dhoni (2).jpeg" alt="Player 1">
+                <h3>Player One</h3>
+                <p>Famous Player One, known for his exceptional skills.</p>
+            </div>
+            <div class="player-card">
+                <img src="C:\Users\HP\Downloads\Rohit.jpeg" alt="Player 2">
+                <h3>Player Two</h3>
+                <p>Legendary Player Two, a master of the game.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="players">
+        <h2>Player Profiles</h2>
+        <div class="profile">
+            <img src="C:\Users\HP\Downloads\Dhoni (2).jpeg" alt="Player 1">
+            <h3>Player One</h3>
+            <p>Stats: Runs - 10000, Wickets - 500</p>
+            <p>Awarded Player of the Year 2015</p>
+        </div>
+        <div class="profile">
+            <img src="C:\Users\HP\Downloads\Rohit.jpeg" alt="Player 2">
+            <h3>Player Two</h3>
+            <p>Stats: Runs - 8000, Wickets - 400</p>
+            <p>Best Bowler of the Decade</p>
+        </div>
+    </section>
+
+    <section id="map">
+        <h2>Interactive Map</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2YpVMLyJyyhkfx0LUelfLC1WaWT62oV525g&s" alt="Map" id="map-img">
+    </section>
+
+    <section id="matches">
+        <h2>Top Matches</h2>
+        <div class="match">
+            <h3>Match of the Year 2023</h3>
+            <iframe width="900" height="900" src="https://www.youtube.com/embed/WQdqgrWvy6g?si=HYllG57IeiNd6V4T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <p>India vs Paksitan match 2024.India wins the match by taking the 8 wickets of Paksitan
+            </p>
+        </div>
+    </section>
+
+    <section id="fanzone">
+        <h2>Fan Zone</h2>
+        <form id="fan-form">
+            <label for="story">Submit Your Favorite Player Story:</label>
+            <textarea id="story" name="story" rows="4" cols="50"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="fan-stories">
+            <!-- Fan stories will appear here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cricket Legends Hub</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
